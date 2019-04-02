@@ -1,5 +1,5 @@
 rm -rf /home/www/ah-api/webroot
-git clone git@github.com:hans4tmnewa/ah-api-php.git /home/www/ah-api/webroot
+git clone git@tmnewa.github.com:hans4tmnewa/ah-api-php.git /home/www/ah-api/webroot
 cd /home/www/ah-api/webroot
 
 if [ -n "$2" ]; then
