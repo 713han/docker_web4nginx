@@ -4,7 +4,7 @@ server {
 
 	listen 80;
 
-	root /home/www/ah-api/webroot;
+	root /home/www/ah-api/webroot/frontend/web;
 	index index.html index.htm index.php;
 
 	server_name ah-api;

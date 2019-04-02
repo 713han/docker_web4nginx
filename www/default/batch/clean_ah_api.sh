@@ -7,7 +7,7 @@ cd /home/www/ah-api/webroot
 # fi
 
 # composer update
-composer install
+# composer install
 case "$1" in
         prod)
                 php init --env=Production --overwrite=All
