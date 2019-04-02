@@ -3,7 +3,6 @@ server {
     client_max_body_size 128M;
 
 	listen 80;
-	listen [::]:80 ipv6only=on;
 
 	root /home/www/ah-api/webroot;
 	index index.html index.htm index.php;
